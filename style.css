@@ -1,0 +1,125 @@
+body{
+  background-image: linear-gradient(#1A2980,#26D0CE);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#container {
+
+width :375px;
+height:425px;
+margin-left:550px;
+margin-top:135px;
+background-image: linear-gradient(#AA076B,#61045F);
+padding-left: 30px;
+color:#fff;
+box-shadow: 0 8px 6px -6px black;
+}
+
+#feet{
+
+	width:150px;
+	height:25px;
+	margin-top: 30px;
+	margin-left:15px;
+}
+
+#inches{
+    width:150px;
+	height:25px;
+	margin-top: 30px;
+}
+
+
+
+#result {
+
+	font-size:25px;
+	margin-left: 10px;
+	color:#8ceb34;
+}
+
+#submit{
+
+	width:180px;
+	height:50px;
+	margin-left:40px;
+	margin-top: 25px;
+	border-radius: 5px;
+	border-style: none;
+	background-color:#4a8f13;
+	color:#fff;
+	font-size:25px;
+}
+
+h1{
+  color: #8ceb34;
+	padding-top:25px;
+  text-align: center;
+  font-size: 40px;
+}
+span{
+  color: #0dafdb;
+  font-size: 25px;
+  padding-left: 50px;
+}
+#feet{
+  margin-left: 50px;
+}
+#inches{
+  margin-left: 30px;
+}
+@media screen and (min-width: 480px) {
+  #container {
+  width :375px;
+  height:425px;
+  margin-left:40px;
+  margin-top:75px;
+  background-image: linear-gradient(#AA076B,#61045F);
+  padding-left: 30px;
+  color:#fff;
+  box-shadow: 0 8px 6px -6px black;
+  }
+}
+@media screen and (min-width: 768px) {
+  #container {
+
+  width :375px;
+  height:425px;
+  margin-left:170px;
+  margin-top:125px;
+  background-image: linear-gradient(#AA076B,#61045F);
+  padding-left: 30px;
+  color:#fff;
+  box-shadow: 0 8px 6px -6px black;
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  #container {
+
+  width :375px;
+  height:425px;
+  margin-left:270px;
+  margin-top:175px;
+  background-image: linear-gradient(#AA076B,#61045F);
+  padding-left: 30px;
+  color:#fff;
+  box-shadow: 0 8px 6px -6px black;
+  }
+
+}
+@media screen and (min-width: 1200px) {
+  #container {
+
+  width :375px;
+  height:425px;
+  margin-left:500px;
+  margin-top:155px;
+  background-image: linear-gradient(#AA076B,#61045F);
+  padding-left: 30px;
+  color:#fff;
+  box-shadow: 0 8px 6px -6px black;
+  }
+
+}
